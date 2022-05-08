@@ -3,6 +3,8 @@ import {StyleSheet} from 'react-native'
 
 import {Container, Description, Price, Title, TopSection, ProductImage} from './styles'
 
+import {appImages} from '../../global/data/appImages'
+
 const styles = StyleSheet.create({
     gradientBg: {
         flex:1,
@@ -21,9 +23,6 @@ function getBgColor(mode){
 }
 
 function ProductCard({title, description, price, img, mode}){
-    const staticImg = 'pizza.png'
-    const imgPath = `../../assets/products/${staticImg}`
-
     const priceParts = price.split(',')
     return (
         <Container>
@@ -36,7 +35,7 @@ function ProductCard({title, description, price, img, mode}){
 
                 <TopSection>
                     <ProductImage 
-                        source={require(imgPath)}
+                        source={appImages[img]}
                     />
                     <Price>
                         {priceParts[0]}, {'\n'}
