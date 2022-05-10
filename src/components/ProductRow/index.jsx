@@ -7,6 +7,7 @@ function ProductRow({products}){
         <FlatList 
             data={products}
             keyExtractor={(item) => item.id}
+            horizontal
             renderItem={({item}) => {
                 return (
                     <ProductCard 
