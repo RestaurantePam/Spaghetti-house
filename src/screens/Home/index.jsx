@@ -14,6 +14,7 @@ function Home(){
                 </TopBanner>
                 <SectionTitle>Lanches</SectionTitle>
                 <ProductRow
+                    style={{marginTop:20}}
                     products={products.filter(product => product.type==='snack').map(product => {
                         return {
                             description:product.description,
@@ -26,6 +27,7 @@ function Home(){
                 />
                 <SectionTitle>Sobremesas</SectionTitle>
                 <ProductRow
+                    style={{marginTop:20}}
                     products={products.filter(product => product.type==='dessert').map(product => {
                         return {
                             description:product.description,

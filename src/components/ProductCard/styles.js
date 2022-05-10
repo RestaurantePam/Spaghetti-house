@@ -25,11 +25,15 @@ const Price = styled.Text`
     color:#54FF38;
     font-size:30px;
     font-weight: 500;
+    width:100%;
+    text-align: right;
 `
 const ProductImage = styled.Image`
-    width:100px;
-    height: 100px;
+    width:130px;
+    height: 130px;
+    position:absolute;
     top: -20px;
+    left:-20px;
 `
 const TopSection = styled.View`
     flex-direction:row;
