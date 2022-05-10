@@ -8,10 +8,12 @@ function ProductRow({products}){
             data={products}
             keyExtractor={(item) => item.id}
             horizontal
+
             renderItem={({item}) => {
                 return (
-                    <ProductCard 
+                    <ProductCard
                         {...item}
+                        style={{margin:7}}
                     />
                 )
             }}

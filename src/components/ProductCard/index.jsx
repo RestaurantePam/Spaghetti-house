@@ -22,10 +22,10 @@ function getBgColor(mode){
     return bgColorsByMode[mode]? bgColorsByMode[mode] : bgColorsByMode['snack']
 }
 
-function ProductCard({title, description, price, img, mode}){
+function ProductCard({title, description, price, img, mode, style}){
     const priceParts = price.split(',')
     return (
-        <Container>
+        <Container style={style}>
             <LinearGradient 
                 colors={getBgColor(mode)} 
                 style={styles.gradientBg}

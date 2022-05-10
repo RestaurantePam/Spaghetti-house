@@ -21,6 +21,18 @@ function Home(){
                         }
                     })}
                 />
+                <SectionTitle>Sobremesas</SectionTitle>
+                <ProductRow
+                    products={products.filter(product => product.type==='dessert').map(product => {
+                        return {
+                            description:product.description,
+                            img:product.img,
+                            mode:product.type,
+                            price:product.price,
+                            title:product.name
+                        }
+                    })}
+                />
                 
             </SafeAreaView>
         </>
