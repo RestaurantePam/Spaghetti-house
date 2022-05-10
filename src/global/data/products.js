@@ -12,7 +12,7 @@ export const products = [
         name:'Cannolo',
         img:'cannolo',
         price:'19,99',
-        type:'snack',
+        type:'dessert',
         description: 'A melhor da região'
     },
     {
@@ -20,7 +20,7 @@ export const products = [
         name:'Gelato',
         img:'gelato',
         price:'19,99',
-        type:'snack',
+        type:'dessert',
         description: 'A melhor da região'
     },
     {
@@ -84,15 +84,15 @@ export const products = [
         name:'Striffoli',
         img:'striffoli',
         price:'19,99',
-        type:'snack',
+        type:'dessert',
         description: 'A melhor da região'
     },
     {
         id:'11',
-        name:'Striffoli',
-        img:'striffoli',
+        name:'Tiramisú',
+        img:'tiramisu',
         price:'19,99',
-        type:'snack',
+        type:'dessert',
         description: 'A melhor da região'
     },
     {
