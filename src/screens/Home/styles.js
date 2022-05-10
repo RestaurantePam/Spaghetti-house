@@ -8,7 +8,7 @@ const PageTitle = styled.Text`
 `
 
 const SectionTitle = styled.Text`
-    font-size: 16px;
+    font-size: 25px;
 `
 
 const TopBanner = styled.View`
