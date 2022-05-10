@@ -11,13 +11,15 @@ const Title = styled.Text`
     color: white;
     font-size: 16px;
     font-weight:500;
-    width: 100%;
-    text-align:center;
+    width: 80%;
+    text-align:right;
 `
 const Description = styled.Text`
     color:#D3D3D3;
     font-size:11px;
     margin: 5px;
+    width:80%;
+    text-align:right;
 `
 const Price = styled.Text`
     color:#54FF38;
