@@ -1,7 +1,4 @@
-import {FlatList} from 'react-native'
 import {SafeAreaView} from 'react-native-safe-area-context'
-
-import {ProductCard} from '../../components/ProductCard'
 
 import {products} from '../../global/data/products'
 import {ProductRow} from '../../components/ProductRow'
