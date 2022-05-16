@@ -3,8 +3,6 @@ import {StyleSheet} from 'react-native'
 
 import {Container, Description, Price, Title, TopSection, ProductImage} from './styles'
 
-import {appImages} from '../../global/data/appImages'
-
 const styles = StyleSheet.create({
     gradientBg: {
         flex:1,
