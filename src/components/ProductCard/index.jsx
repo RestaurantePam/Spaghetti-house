@@ -35,7 +35,7 @@ function ProductCard({title, description, price, img, mode, style}){
 
                 <TopSection>
                     <ProductImage 
-                        source={appImages[img]}
+                        source={img}
                     />
                     <Price>
                         {priceParts[0]}, {'\n'}
