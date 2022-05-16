@@ -14,6 +14,7 @@ function ProductRow({products, style}){
                 return (
                     <ProductCard
                         {...item}
+                        key={item.id}
                         style={{margin:7}}
                     />
                 )
