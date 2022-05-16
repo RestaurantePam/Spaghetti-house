@@ -3,7 +3,7 @@ import {SafeAreaView} from 'react-native-safe-area-context'
 import {products} from '../../global/data/products'
 import {ProductRow} from '../../components/ProductRow'
 
-import {SectionTitle, PageTitle, TopBanner} from './styles'
+import {SectionTitle, PageTitle, PageSubTitle, TopBanner} from './styles'
 
 function Home(){
     return (
@@ -11,6 +11,9 @@ function Home(){
             <SafeAreaView>
                 <TopBanner>
                     <PageTitle>Spaghetti house</PageTitle>
+                    <PageSubTitle>
+                        A cozinha italiana da região
+                    </PageSubTitle>
                 </TopBanner>
                 <SectionTitle>Lanches</SectionTitle>
                 <ProductRow
