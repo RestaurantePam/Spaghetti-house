@@ -34,6 +34,7 @@ function ProductCard({title, description, price, img, mode, style}){
                 <TopSection>
                     <ProductImage 
                         source={img}
+                        resizeMode="cover"
                     />
                     <Price>
                         {priceParts[0]}, {'\n'}
