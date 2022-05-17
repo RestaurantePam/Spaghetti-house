@@ -6,7 +6,7 @@ export const products = [
         img:appImages['arancino'],
         price:'19,99',
         type:'snack',
-        description: 'A melhor da região'
+        description: 'Bolinho de risotto cremoso e crocante.'
     },
     {
         id:'1',
@@ -14,7 +14,7 @@ export const products = [
         img:appImages['cannolo'],
         price:'19,99',
         type:'dessert',
-        description: 'A melhor da região'
+        description: 'Canolo de doce de leite e frutas.'
     },
     {
         id:'2',
@@ -22,7 +22,7 @@ export const products = [
         img:appImages['gelato'],
         price:'19,99',
         type:'dessert',
-        description: 'A melhor da região'
+        description: 'Gelato de frutas e nozes.'
     },
     {
         id:'3',
@@ -30,7 +30,7 @@ export const products = [
         img:appImages['lasagna'],
         price:'19,99',
         type:'snack',
-        description: 'A melhor da região'
+        description: 'lasanha a bolonhesa.'
     },
     {
         id:'4',
@@ -38,7 +38,7 @@ export const products = [
         img:appImages['piadina_romagnola'],
         price:'19,99',
         type:'snack',
-        description: 'A melhor da região'
+        description: 'Piadina de frango com legumes.'
     },
     {
         id:'5',
@@ -46,7 +46,7 @@ export const products = [
         img:appImages['pizza'],
         price:'19,99',
         type:'snack',
-        description: 'A melhor da região'
+        description: 'Pizza de diversos sabores.'
     },
     {
         id:'6',
@@ -54,7 +54,7 @@ export const products = [
         img:appImages['polpetone'],
         price:'19,99',
         type:'snack',
-        description: 'A melhor da região'
+        description: 'Bolinho de carne recheado com queijo.'
     },
     {
         id:'7',
@@ -62,7 +62,7 @@ export const products = [
         img:appImages['porchetta'],
         price:'19,99',
         type:'snack',
-        description: 'A melhor da região'
+        description: 'Barriga de porco com pernil.'
     },
     {
         id:'8',
@@ -70,7 +70,7 @@ export const products = [
         img:appImages['ravioli'],
         price:'19,99',
         type:'snack',
-        description: 'A melhor da região'
+        description: 'Ravioli com legumes e carnes'
     },
     {
         id:'9',
@@ -78,7 +78,7 @@ export const products = [
         img:appImages['risotto'],
         price:'19,99',
         type:'snack',
-        description: 'A melhor da região'
+        description: 'Risotto com queijos e carnes.'
     },
     {
         id:'10',
@@ -86,7 +86,7 @@ export const products = [
         img:appImages['striffoli'],
         price:'19,99',
         type:'dessert',
-        description: 'A melhor da região'
+        description: 'Bolinhos de chuva italiano.'
     },
     {
         id:'11',
@@ -94,7 +94,7 @@ export const products = [
         img:appImages['tiramisu'],
         price:'19,99',
         type:'dessert',
-        description: 'A melhor da região'
+        description: 'Camadas de puro sabor'
     },
     {
         id:'12',
@@ -102,6 +102,6 @@ export const products = [
         img:appImages['trippa_alla_romana'],
         price:'19,99',
         type:'snack',
-        description: 'A melhor da região'
+        description: 'A dobradinha italiana'
     },
 ]
