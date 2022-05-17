@@ -1,8 +1,9 @@
+import {appImages} from './appImages'
 export const products = [
     {
         id:'0',
         name:'Arancino',
-        img:'arancino',
+        img:appImages['arancino'],
         price:'19,99',
         type:'snack',
         description: 'A melhor da região'
@@ -10,7 +11,7 @@ export const products = [
     {
         id:'1',
         name:'Cannolo',
-        img:'cannolo',
+        img:appImages['cannolo'],
         price:'19,99',
         type:'dessert',
         description: 'A melhor da região'
@@ -18,7 +19,7 @@ export const products = [
     {
         id:'2',
         name:'Gelato',
-        img:'gelato',
+        img:appImages['gelato'],
         price:'19,99',
         type:'dessert',
         description: 'A melhor da região'
@@ -26,7 +27,7 @@ export const products = [
     {
         id:'3',
         name:'Lasagna',
-        img:'lasagna',
+        img:appImages['lasagna'],
         price:'19,99',
         type:'snack',
         description: 'A melhor da região'
@@ -34,7 +35,7 @@ export const products = [
     {
         id:'4',
         name:'Piadina Romagnola',
-        img:'piadina romagnola',
+        img:appImages['piadina_romagnola'],
         price:'19,99',
         type:'snack',
         description: 'A melhor da região'
@@ -42,7 +43,7 @@ export const products = [
     {
         id:'5',
         name:'Pizza',
-        img:'pizza',
+        img:appImages['pizza'],
         price:'19,99',
         type:'snack',
         description: 'A melhor da região'
@@ -50,7 +51,7 @@ export const products = [
     {
         id:'6',
         name:'Polpetone',
-        img:'polpetone',
+        img:appImages['polpetone'],
         price:'19,99',
         type:'snack',
         description: 'A melhor da região'
@@ -58,7 +59,7 @@ export const products = [
     {
         id:'7',
         name:'Porchetta',
-        img:'porchetta',
+        img:appImages['porchetta'],
         price:'19,99',
         type:'snack',
         description: 'A melhor da região'
@@ -66,7 +67,7 @@ export const products = [
     {
         id:'8',
         name:'Ravioli',
-        img:'ravioli',
+        img:appImages['ravioli'],
         price:'19,99',
         type:'snack',
         description: 'A melhor da região'
@@ -74,7 +75,7 @@ export const products = [
     {
         id:'9',
         name:'Risotto',
-        img:'risotto',
+        img:appImages['risotto'],
         price:'19,99',
         type:'snack',
         description: 'A melhor da região'
@@ -82,7 +83,7 @@ export const products = [
     {
         id:'10',
         name:'Striffoli',
-        img:'striffoli',
+        img:appImages['striffoli'],
         price:'19,99',
         type:'dessert',
         description: 'A melhor da região'
@@ -90,7 +91,7 @@ export const products = [
     {
         id:'11',
         name:'Tiramisú',
-        img:'tiramisu',
+        img:appImages['tiramisu'],
         price:'19,99',
         type:'dessert',
         description: 'A melhor da região'
@@ -98,7 +99,7 @@ export const products = [
     {
         id:'12',
         name:'Trippa Alla Romana',
-        img:'trippa alla romana',
+        img:appImages['trippa_alla_romana'],
         price:'19,99',
         type:'snack',
         description: 'A melhor da região'

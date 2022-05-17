@@ -3,7 +3,7 @@ export const appImages = {
     cannolo: require('../../assets/products/cannolo.png'),
     gelato: require('../../assets/products/gelato.png'),
     lasagna: require('../../assets/products/lasagna.png'),
-    'piadina romagnola': require('../../assets/products/piadina romagnola.png'),
+    'piadina_romagnola': require('../../assets/products/piadina_romagnola.png'),
     pizza:require('../../assets/products/pizza.png'),
     polpetone: require('../../assets/products/polpetone.png'),
     porchetta: require('../../assets/products/porchetta.png'),
@@ -11,5 +11,5 @@ export const appImages = {
     risotto: require('../../assets/products/risotto.png'),
     striffoli: require('../../assets/products/struffoli.png'),
     tiramisu: require('../../assets/products/tiramisu.png'),
-    'trippa alla romana': require('../../assets/products/trippa alla romana.png')
+    'trippa_alla_romana': require('../../assets/products/trippa_alla_romana.png')
 }
