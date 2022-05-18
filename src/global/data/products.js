@@ -6,7 +6,8 @@ export const products = [
         img:appImages['arancino'],
         price:'19,99',
         type:'snack',
-        description: 'Bolinho de risotto cremoso e crocante.'
+        description: 'Bolinho de risotto cremoso e crocante.',
+        info:'Este é um texto de exemplo para informações mais detalhadas sobre o produto'
     },
     {
         id:'1',
@@ -14,7 +15,8 @@ export const products = [
         img:appImages['cannolo'],
         price:'19,99',
         type:'dessert',
-        description: 'Canolo de doce de leite e frutas.'
+        description: 'Canolo de doce de leite e frutas.',
+        info:'Este é um texto de exemplo para informações mais detalhadas sobre o produto'
     },
     {
         id:'2',
@@ -22,7 +24,8 @@ export const products = [
         img:appImages['gelato'],
         price:'19,99',
         type:'dessert',
-        description: 'Gelato de frutas e nozes.'
+        description: 'Gelato de frutas e nozes.',
+        info:'Este é um texto de exemplo para informações mais detalhadas sobre o produto'
     },
     {
         id:'3',
@@ -30,7 +33,8 @@ export const products = [
         img:appImages['lasagna'],
         price:'19,99',
         type:'snack',
-        description: 'lasanha a bolonhesa.'
+        description: 'lasanha a bolonhesa.',
+        info:'Este é um texto de exemplo para informações mais detalhadas sobre o produto'
     },
     {
         id:'4',
@@ -38,7 +42,8 @@ export const products = [
         img:appImages['piadina_romagnola'],
         price:'19,99',
         type:'snack',
-        description: 'Piadina de frango com legumes.'
+        description: 'Piadina de frango com legumes.',
+        info:'Este é um texto de exemplo para informações mais detalhadas sobre o produto'
     },
     {
         id:'5',
@@ -46,7 +51,8 @@ export const products = [
         img:appImages['pizza'],
         price:'19,99',
         type:'snack',
-        description: 'Pizza de diversos sabores.'
+        description: 'Pizza de diversos sabores.',
+        info:'Este é um texto de exemplo para informações mais detalhadas sobre o produto'
     },
     {
         id:'6',
@@ -54,7 +60,8 @@ export const products = [
         img:appImages['polpetone'],
         price:'19,99',
         type:'snack',
-        description: 'Bolinho de carne recheado com queijo.'
+        description: 'Bolinho de carne recheado com queijo.',
+        info:'Este é um texto de exemplo para informações mais detalhadas sobre o produto'
     },
     {
         id:'7',
@@ -62,7 +69,8 @@ export const products = [
         img:appImages['porchetta'],
         price:'19,99',
         type:'snack',
-        description: 'Barriga de porco com pernil.'
+        description: 'Barriga de porco com pernil.',
+        info:'Este é um texto de exemplo para informações mais detalhadas sobre o produto'
     },
     {
         id:'8',
@@ -70,7 +78,8 @@ export const products = [
         img:appImages['ravioli'],
         price:'19,99',
         type:'snack',
-        description: 'Ravioli com legumes e carnes'
+        description: 'Ravioli com legumes e carnes',
+        info:'Este é um texto de exemplo para informações mais detalhadas sobre o produto'
     },
     {
         id:'9',
@@ -78,7 +87,8 @@ export const products = [
         img:appImages['risotto'],
         price:'19,99',
         type:'snack',
-        description: 'Risotto com queijos e carnes.'
+        description: 'Risotto com queijos e carnes.',
+        info:'Este é um texto de exemplo para informações mais detalhadas sobre o produto'
     },
     {
         id:'10',
@@ -86,7 +96,8 @@ export const products = [
         img:appImages['striffoli'],
         price:'19,99',
         type:'dessert',
-        description: 'Bolinhos de chuva italiano.'
+        description: 'Bolinhos de chuva italiano.',
+        info:'Este é um texto de exemplo para informações mais detalhadas sobre o produto'
     },
     {
         id:'11',
@@ -94,7 +105,8 @@ export const products = [
         img:appImages['tiramisu'],
         price:'19,99',
         type:'dessert',
-        description: 'Camadas de puro sabor'
+        description: 'Camadas de puro sabor',
+        info:'Este é um texto de exemplo para informações mais detalhadas sobre o produto'
     },
     {
         id:'12',
@@ -102,6 +114,7 @@ export const products = [
         img:appImages['trippa_alla_romana'],
         price:'19,99',
         type:'snack',
-        description: 'A dobradinha italiana'
+        description: 'A dobradinha italiana',
+        info:'Este é um texto de exemplo para informações mais detalhadas sobre o produto'
     },
 ]

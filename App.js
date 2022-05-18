@@ -1,5 +1,5 @@
 import {NavigationContainer} from '@react-navigation/native'
-import { MainRoutes } from './src/routes/main';
+import { MainRoutes } from './src/routes/Main';
 
 import {StatusBar} from 'expo-status-bar'
 
