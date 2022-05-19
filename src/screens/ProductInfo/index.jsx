@@ -1,19 +1,26 @@
-import {Button} from 'react-native'
+import { SafeAreaView } from 'react-native-safe-area-context'
+import { Text } from 'react-native'
 import {getProductInfo} from '../../lib/getProductInfo'
 
-import {Banner, Container, Info, Price, Title} from './styles'
+import {Banner, Info, Price, Title, InfoSection, BannerSection, BackButton, BackButtonText} from './styles'
 
 function ProductInfo({route, navigation}){
     const productId = route.params.id
     const productInfo = getProductInfo(productId)
     return (
-        <Container>
-            <Banner source={productInfo.img} style={{width:'100%', height:200, resizeMode:'cover'}} />
-            <Title>{productInfo.name}</Title>
-            <Info>{productInfo.info}</Info>
-            <Price>Preço: {productInfo.price}</Price>
-            <Button onPress={navigation.goBack} title="Voltar" />
-        </Container>
+        <SafeAreaView style={{flex:1, alignItems:'center'}}>
+            <BannerSection>
+                <Banner source={productInfo.img} style={{resizeMode:'cover'}} />
+                <Title>{productInfo.name}</Title>
+            </BannerSection>
+            <InfoSection>
+                <Info>{productInfo.info}</Info>
+                <Price>R${productInfo.price}</Price>
+            </InfoSection>
+            <BackButton onPress={navigation.goBack}>
+                <BackButtonText>Voltar</BackButtonText>
+            </BackButton>
+        </SafeAreaView>
     )
 }
 
