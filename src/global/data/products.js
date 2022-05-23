@@ -97,7 +97,7 @@ export const products = [
         price:'19,99',
         type:'dessert',
         description: 'Uma massa macia, irresistível e coberta de sabor.',
-        info:'Uma massa macia, irresistível e coberta de sabor.'
+        info:'Nosso Strufolli é uma receita muito conhecida no Brasil, mas por outro nome (bolinho de chuva), nosso strufolli é uma porção de bolinhos com uma calda de mel, o que torna ideal acompanhado de um café.'
     },
     {
         id:'11',
@@ -106,7 +106,7 @@ export const products = [
         price:'19,99',
         type:'dessert',
         description: 'Camadas de puro sabor',
-        info:'Camadas de puro sabor'
+        info:'Tiramisú, de longe uma das melhores sobremesas do nosso cardápio, é composto por camadas de um biscoito champagne, chocolate e chantily.'
     },
     {
         id:'12',
@@ -115,6 +115,6 @@ export const products = [
         price:'19,99',
         type:'snack',
         description: 'A dobradinha italiana',
-        info:'A dobradinha italiana'
+        info:'Nossa Trippa Alla Romana, mais conhecida aqui no Brasil como Buchada ou Dobradinha, é uma ótima opção de prato principal, pois ela é completa, composta por miúdos diversificados do estômago.'
     },
 ]
