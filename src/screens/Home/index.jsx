@@ -24,7 +24,8 @@ function Home(){
                             img:product.img,
                             mode:product.type,
                             price:product.price,
-                            title:product.name
+                            title:product.name,
+                            id: product.id
                         }
                     })}
                 />
@@ -37,7 +38,8 @@ function Home(){
                             img:product.img,
                             mode:product.type,
                             price:product.price,
-                            title:product.name
+                            title:product.name,
+                            id:product.id
                         }
                     })}
                 />
