@@ -15,7 +15,7 @@ const Info = styled.Text`
 `
 const Price = styled.Text`
     font-size: 18px;
-    color:#54FF38;
+    color:#11d144;
     width:100%;
     text-align:right;
 `
