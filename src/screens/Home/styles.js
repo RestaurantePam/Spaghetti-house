@@ -28,5 +28,11 @@ const TopBanner = styled.View`
     border-bottom-right-radius: 20px;
 `
 
+const SearchInputArea = styled.View`
+    width: 100%;
+    height: 100px;
+    align-items:center;
+`
 
-export {SectionTitle, PageTitle, PageSubTitle, TopBanner}
+
+export {SectionTitle, PageTitle, PageSubTitle, TopBanner, SearchInputArea}

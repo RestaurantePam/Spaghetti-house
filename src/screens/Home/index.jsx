@@ -2,8 +2,9 @@ import {SafeAreaView} from 'react-native-safe-area-context'
 
 import {products} from '../../global/data/products'
 import {ProductRow} from '../../components/ProductRow'
+import {SearchBar} from '../../components/SearchBar'
 
-import {SectionTitle, PageTitle, PageSubTitle, TopBanner} from './styles'
+import {SectionTitle, PageTitle, PageSubTitle, TopBanner, SearchInputArea} from './styles'
 
 function Home(){
     return (
@@ -15,6 +16,9 @@ function Home(){
                         A melhor cozinha italiana da região
                     </PageSubTitle>
                 </TopBanner>
+                <SearchInputArea>
+                    <SearchBar style={{marginTop: 10}} />
+                </SearchInputArea>
                 <SectionTitle>Lanches</SectionTitle>
                 <ProductRow
                     style={{marginTop:20}}
