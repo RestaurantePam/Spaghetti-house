@@ -18,7 +18,6 @@ function ProductRow({products, style}){
                         {...item}
                         onPress={()=> {
                             navigation.navigate('product', {id:item.id})
-                            console.log(`Id do item: ${item.id}`)
                         }}
                         style={{margin:7}}
                     />
