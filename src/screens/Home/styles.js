@@ -33,6 +33,13 @@ const SearchInputArea = styled.View`
     height: 100px;
     align-items:center;
 `
+const SearchItemsArea = styled.View`
+    width: 100%;
+    align-items:center;
+`
+const SearchAreaTitle = styled.Text`
+    font-size:20px;
+`
 
 
-export {SectionTitle, PageTitle, PageSubTitle, TopBanner, SearchInputArea}
+export {SectionTitle, PageTitle, PageSubTitle, TopBanner, SearchInputArea, SearchItemsArea, SearchAreaTitle}
