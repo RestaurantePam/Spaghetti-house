@@ -28,5 +28,18 @@ const TopBanner = styled.View`
     border-bottom-right-radius: 20px;
 `
 
+const SearchInputArea = styled.View`
+    width: 100%;
+    height: 100px;
+    align-items:center;
+`
+const SearchItemsArea = styled.View`
+    width: 100%;
+    align-items:center;
+`
+const SearchAreaTitle = styled.Text`
+    font-size:20px;
+`
 
-export {SectionTitle, PageTitle, PageSubTitle, TopBanner}
+
+export {SectionTitle, PageTitle, PageSubTitle, TopBanner, SearchInputArea, SearchItemsArea, SearchAreaTitle}
