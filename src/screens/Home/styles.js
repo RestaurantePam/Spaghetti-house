@@ -6,6 +6,7 @@ const PageTitle = styled.Text`
     text-align:center;
     color: white;
     font-weight:bold;
+    font-family:Poppins;
 `
 const PageSubTitle = styled.Text`
     color: #f8f8f8;
@@ -13,6 +14,7 @@ const PageSubTitle = styled.Text`
     text-align:center;
     margin-top:10px;
     font-size: 17px;
+    font-family:Poppins;
 `
 
 const SectionTitle = styled.Text`
@@ -39,6 +41,7 @@ const SearchItemsArea = styled.View`
 `
 const SearchAreaTitle = styled.Text`
     font-size:20px;
+    font-family:Poppins;
 `
 
 

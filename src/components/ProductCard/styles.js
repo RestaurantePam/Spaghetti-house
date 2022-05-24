@@ -9,17 +9,19 @@ const Container = styled.TouchableOpacity`
 
 const Title = styled.Text`
     color: white;
+    font-weight:bold;
     font-size: 16px;
     font-weight:500;
     width: 80%;
     text-align:right;
+    font-family:Poppins;
 `
 const Description = styled.Text`
-    color:#D3D3D3;
-    font-size:11px;
-    margin: 5px;
+    color:#ffffffcc;
+    font-size:9px;
     width:80%;
     text-align:right;
+    font-family:Poppins;
 `
 const Price = styled.Text`
     color:#54FF38;
@@ -27,6 +29,7 @@ const Price = styled.Text`
     font-weight: 500;
     width:100%;
     text-align: right;
+    font-family:Poppins;
 `
 const ProductImage = styled.Image`
     width:130px;
