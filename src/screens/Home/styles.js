@@ -5,12 +5,14 @@ const PageTitle = styled.Text`
     width:100%;
     text-align:center;
     color: white;
+    font-weight:bold;
 `
 const PageSubTitle = styled.Text`
     color: #f8f8f8;
     width:100%;
     text-align:center;
     margin-top:10px;
+    font-size: 17px;
 `
 
 const SectionTitle = styled.Text`

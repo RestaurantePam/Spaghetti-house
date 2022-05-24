@@ -12,7 +12,7 @@ function Home(){
                 <TopBanner>
                     <PageTitle>Spaghetti house</PageTitle>
                     <PageSubTitle>
-                        A cozinha italiana da região
+                        A melhor cozinha italiana da região
                     </PageSubTitle>
                 </TopBanner>
                 <SectionTitle>Lanches</SectionTitle>
