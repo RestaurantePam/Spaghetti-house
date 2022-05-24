@@ -7,17 +7,21 @@ const Title = styled.Text`
     font-weight:bold;
     color: rgb(255, 255, 255);
     transform:translateY(-20px);
+    font-family:Poppins;
 `
 const Info = styled.Text`
     font-size:18px;
     color: rgb(35, 35, 35);
     padding: 15px;
+    font-family:Poppins;
 `
 const Price = styled.Text`
     font-size: 18px;
     color:#11d144;
     width:100%;
     text-align:right;
+    font-family:Poppins;
+    font-weight:bold;
 `
 const BannerSection = styled.View`
     background-color:red ;
@@ -36,11 +40,11 @@ const Banner = styled.Image`
 
 const BackButton = styled.TouchableOpacity`
     background-color: #FA1313;
-    border-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
     justify-content:center ;
     height:40px;
     width: 100%;
-    font-size: 30px;
 `
 const BackButtonText = styled.Text`
     font-weight: bold;
@@ -48,6 +52,7 @@ const BackButtonText = styled.Text`
     width:100%;
     text-align:center;
     color:white;
+    font-family:Poppins;
 `
 
 export {InfoSection, BannerSection, Title, Info, Price, Banner, BackButton, BackButtonText}
