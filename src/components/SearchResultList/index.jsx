@@ -3,32 +3,27 @@ import {SearchResultCard} from '../SearchResultCard'
 import {StyledList} from './styles'
 
 import {useNavigation} from '@react-navigation/native'
+import { View } from 'react-native'
 
 function SearchResultList({products}){
     const {navigate} = useNavigation()
     return (
-        <StyledList 
-            data={products}
-            keyExtractor={product => product.id}
-            contentContainerStyle={{alignItems:'center'}}
-            renderItem={({item}) => {
-                return (
-                    <SearchResultCard 
-                        description={item.description}
-                        style={{margin:5}}
-                        img={item.img}
-                        mode={item.type}
-                        onPress={() => {
-                            navigate('product', {id:item.id})
-                        }}
-                        price={item.price}
-                        title={item.name}
-                    />
-                )
-            }}
-
-            style={{width:'100%'}}
-        />
+        <View>
+            {products.map(product => {
+                return <SearchResultCard 
+                    description={product.description}
+                    img={product.img}
+                    mode={product.type}
+                    style={{margin:5}}
+                    onPress={() => {
+                        navigate('product', {id:product.id})
+                    }}
+                    price={product.price}
+                    title={product.name}
+                    key={product.id}
+                />
+            })}
+        </View>
     )
 }
 
