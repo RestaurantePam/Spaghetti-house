@@ -1,9 +1,15 @@
-import {View, Text, SafeAreaView} from 'react-native'
+import {
+    Container,
+    Text,
+    Title
+} from './style'
 
 export function Contact(){
     return (
-        <SafeAreaView style={{flex:1}}>
-            <Text style={{color:'red', marginTop:24}}>Contato: (99+) 99999 - 9999</Text>
-        </SafeAreaView>
+        <Container>
+            <Title>Contate-nos!</Title>
+            <Text>Número de telefone: (11) 99999-9999</Text>
+            <Text>Email: spaghetti.house@gmail.com</Text>
+        </Container>
     )
 }
